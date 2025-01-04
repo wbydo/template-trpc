@@ -1,14 +1,23 @@
 {
   "name": "@wbydo/frontend",
-  "type": "module",
   "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
   "dependencies": {
-    "astro": "^5.1.2"
-  }
+    "@astrojs/react": "^4.1.2",
+    "astro": "^5.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "fixpack": "^4.0.0"
+  },
+  "scripts": {
+    "astro": "astro",
+    "build": "astro build",
+    "dev": "astro dev",
+    "fixpack": "fixpack",
+    "preview": "astro preview"
+  },
+  "type": "module"
 }
