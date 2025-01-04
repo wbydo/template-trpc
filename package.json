@@ -25,7 +25,8 @@
     "lint": "eslint src",
     "start": "tsx src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "w:be": "pnpm -F @wbydo/serverside"
+    "w:be": "pnpm -F @wbydo/serverside",
+    "w:fe": "pnpm -F @wbydo/frontend"
   },
   "type": "module"
 }
