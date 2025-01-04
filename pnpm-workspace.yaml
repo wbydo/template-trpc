@@ -1,0 +1,5 @@
+# https://pnpm.io/ja/pnpm-workspace_yaml
+
+packages:
+  - 'packages/*'
+  - 'apps/*'
