@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "",
   "dependencies": {
-    "typescript": "<5.7.0"
+    "typescript": "<5.8.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
